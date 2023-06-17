@@ -1,0 +1,12 @@
+https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections
+https://uigradients.com/#CosmicFusion
+https://undraw.co/illustrations
+background: #ff00cc;
+      /* fallback for old browsers */
+    background: linear-gradient(to right, hsla(240, 50%, 40%, 0.507), hsla(312, 100%, 50%, 0.521)), url(../img/este\ xd.webp);
+      /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(240, 50%, 40%, 0.507), hsla(312, 100%, 50%, 0.521)), url(../img/este\ xd.webp);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover ;
+    background-attachment: fixed;
+    position: relative;

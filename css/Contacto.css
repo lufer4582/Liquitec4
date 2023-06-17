@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+body{
+    font-family: inherit;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Header */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #ff00cc;
+    background: linear-gradient(to right, hsla(240, 50%, 40%, 0.507), hsla(312, 100%, 50%, 0.521)), url(../imagenes/Banner/estepls.webp);
+    background: linear-gradient(to right, hsla(240, 50%, 40%, 0.507), hsla(312, 100%, 50%, 0.521)), url(../imagenes/Banner/estepls.webp);
+    background-size: cover ;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 150px;
+    color: #fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.textos-header h3{
+    font-size: 40px;
+    font-weight: 300;
+    color: lightgray;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*aside*/
+.enlaces{
+    padding: 4%;
+    float: right;
+    
+    
+}
+
+
+
+.enlaces .contacto a img{
+    width: 40px;
+    float: left;
+
+}
+
+.enlaces .contacto a{
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+
+    /*hoverito*/
+    .enlaces .listas .contacto-hover a:hover{
+        font-size: 23px;
+    
+
+    }
+
+    .enlaces .listas .contacto-hover img:hover{
+        width: 50px;
+    }
+
+/*Ubicacion*/
+.direccion{
+    
+margin-top: 50px;
+
+}   
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/    
+
+/*Sugerencias*/
+
+.botones{
+    margin: 4px;
+    padding: 3px;
+}
+
+.sugerencias{
+    width: 50%;
+
+    margin-bottom: 5%;
+    margin-top: 490px;
+    margin-left: 60px;
+}
+
+.sugerencias textarea{
+    height: 150px;
+    resize: none;
+    display: inline-block;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/    
+
+/*Main*/
+
+main{
+    margin-top: 150px;
+    padding-left: 70px;
+    margin-bottom: 2px;
+    width: 70%;
+    
+      
+}
+
+main p{
+    font-size: 18px;
+    
+}
+
+
+
+.pfinal{
+
+    padding-left: 70px;
+    width: 70%;
+    
+}
+
+.pfinal p{
+    font-size: 18px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*formulario*/
+.cards{
+    
+    
+    margin-left: 70px;
+    
+}
+
+.card{
+    float: left;
+    margin-top: 10px;
+    margin-left: 90px;
+    
+}
+
+.card img{
+    width: 70%;
+    border-radius: 100px;
+    
+}
+
+.card:hover{
+    border: #642a73 4px solid;
+}
+.card img:hover{
+    width: 75%;
+    border: #642a73 4px solid;
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* footer */
+
+footer{
+    
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    
+   
+}
+
+.contenedor-footer{
+    
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+    font-size: 20px;
+}
+
+.content-foo li{
+    color: #ccc;
+    list-style: none;
+}
+
+.content-foo ol{
+    color: lightgray;
+    font-size: 20px;
+}
+
+
